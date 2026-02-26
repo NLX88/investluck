@@ -1,0 +1,450 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>InvestLuck — Gestión estratégica de capital</title>
+
+  <!-- Font -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+  <!-- Tailwind output -->
+  <link href="./assets/css/output.css" rel="stylesheet">
+</head>
+
+<body>
+  <!-- Header -->
+  <header class="sticky top-0 z-50 border-b border-white/10 bg-brand-dark/80 backdrop-blur">
+    <div class="container-page flex items-center justify-between py-3">
+      <a href="#" class="flex items-center gap-3">
+        <img src="./assets/img/logo.png" alt="InvestLuck" class="h-9 w-auto" />
+      </a>
+
+      <nav class="hidden items-center gap-6 md:flex">
+        <a href="#beneficios" class="navlink">Beneficios</a>
+        <a href="#como-funciona" class="navlink">Cómo funciona</a>
+        <a href="#resultados" class="navlink">Resultados</a>
+        <a href="#nosotros" class="navlink">Nosotros</a>
+        <a href="#contacto" class="navlink">Contacto</a>
+      </nav>
+
+      <a href="#contacto" class="btn-primary">Empieza hoy</a>
+    </div>
+  </header>
+
+  <!-- Hero -->
+  <section class="relative overflow-hidden">
+    <!-- glow -->
+    <div class="absolute inset-0 opacity-35 [background:radial-gradient(circle_at_top,rgba(244,206,97,0.28),transparent_55%)]"></div>
+
+    <div class="container-page section grid gap-10 md:grid-cols-2">
+      <!-- Left -->
+      <div>
+        <p class="badge">
+          Estrategia basada en datos • Reportes mensuales • Seguimiento continuo
+        </p>
+
+        <h1 class="mt-4">
+          Gestión estratégica de capital con enfoque en datos.
+        </h1>
+
+        <p class="mt-5">
+          Diversificamos entre estrategias deportivas y mercado bursátil de Estados Unidos, con seguimiento constante y reportes mensuales para evaluar desempeño y tomar decisiones informadas.
+        </p>
+
+        <div class="mt-8 flex flex-col gap-3 sm:flex-row">
+          <a href="#contacto" class="btn-primary">Empieza hoy</a>
+          <a href="#como-funciona" class="btn-secondary">Ver cómo funciona</a>
+        </div>
+
+        <!-- Trust chips -->
+        <div class="mt-10 grid grid-cols-1 gap-4 sm:grid-cols-3">
+          <div class="rounded-2xl border border-white/10 bg-white/5 p-4">
+            <p class="text-sm font-semibold text-white">Reportes mensuales</p>
+            <p class="mt-1 text-xs text-white/70">Resumen claro de desempeño y movimientos.</p>
+          </div>
+          <div class="rounded-2xl border border-white/10 bg-white/5 p-4">
+            <p class="text-sm font-semibold text-white">Gestión de riesgo</p>
+            <p class="mt-1 text-xs text-white/70">Enfoque disciplinado para proteger capital.</p>
+          </div>
+          <div class="rounded-2xl border border-white/10 bg-white/5 p-4">
+            <p class="text-sm font-semibold text-white">Acompañamiento</p>
+            <p class="mt-1 text-xs text-white/70">Seguimiento y ajustes con base en resultados.</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Right card -->
+      <aside class="card">
+        <h2 class="text-lg font-semibold text-white">Resumen del enfoque</h2>
+        <p class="mt-2 text-sm">
+          Definimos un plan, distribuimos capital con criterio y monitoreamos el desempeño. El objetivo es operar con claridad, control y métricas.
+        </p>
+
+        <div class="mt-6 space-y-3 text-sm text-white/80">
+          <div class="flex items-start gap-3">
+            <span class="mt-2 inline-block h-2 w-2 rounded-full bg-brand-gold"></span>
+            <p>Proceso ordenado, medible y transparente</p>
+          </div>
+          <div class="flex items-start gap-3">
+            <span class="mt-2 inline-block h-2 w-2 rounded-full bg-brand-gold"></span>
+            <p>Decisiones informadas con base en seguimiento</p>
+          </div>
+          <div class="flex items-start gap-3">
+            <span class="mt-2 inline-block h-2 w-2 rounded-full bg-brand-gold"></span>
+            <p>Reportes mensuales para evaluar y ajustar</p>
+          </div>
+        </div>
+
+        <div class="mt-6 rounded-2xl border border-white/10 bg-black/20 p-4">
+          <p class="text-xs text-white/70">
+            Este sitio es informativo y no constituye asesoría financiera personalizada.
+            <span class="text-white/60">Toda inversión conlleva riesgo. Resultados pasados no garantizan resultados futuros.</span>
+          </p>
+        </div>
+      </aside>
+    </div>
+  </section>
+
+  <!-- Beneficios -->
+  <section id="beneficios">
+    <div class="container-page section">
+      <h2>Beneficios</h2>
+      <p class="mt-2">Un enfoque serio: proceso claro, métricas y comunicación constante.</p>
+
+      <div class="mt-8 grid gap-4 md:grid-cols-2 lg:grid-cols-4">
+        <div class="card p-5">
+          <p class="font-semibold text-white">Transparencia</p>
+          <p class="mt-2 text-sm">Comunicación constante y reportes mensuales con métricas claras.</p>
+        </div>
+
+        <div class="card p-5">
+          <p class="font-semibold text-white">Diversificación</p>
+          <p class="mt-2 text-sm">Estrategias deportivas + bolsa de EE. UU. para balancear escenarios.</p>
+        </div>
+
+        <div class="card p-5">
+          <p class="font-semibold text-white">Estrategia basada en datos</p>
+          <p class="mt-2 text-sm">Decisiones informadas a partir de análisis y seguimiento.</p>
+        </div>
+
+        <div class="card p-5">
+          <p class="font-semibold text-white">Seguimiento y control</p>
+          <p class="mt-2 text-sm">Monitoreo continuo para ajustar objetivos y exposición.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Cómo funciona -->
+  <section id="como-funciona" class="border-t border-white/10 bg-black/20">
+    <div class="container-page section">
+      <h2>¿Cómo funciona?</h2>
+      <p class="mt-2">Un proceso simple y medible.</p>
+
+      <div class="mt-8 grid gap-4 md:grid-cols-2 lg:grid-cols-4">
+        <div class="card p-5">
+          <p class="text-xs text-white/60">Paso 1</p>
+          <p class="mt-1 font-semibold text-white">Definición de capital</p>
+          <p class="mt-2 text-sm">Establecemos el monto inicial, horizonte y tolerancia al riesgo.</p>
+        </div>
+
+        <div class="card p-5">
+          <p class="text-xs text-white/60">Paso 2</p>
+          <p class="mt-1 font-semibold text-white">Distribución estratégica</p>
+          <p class="mt-2 text-sm">Asignamos capital a estrategias deportivas y mercado bursátil según el plan.</p>
+        </div>
+
+        <div class="card p-5">
+          <p class="text-xs text-white/60">Paso 3</p>
+          <p class="mt-1 font-semibold text-white">Monitoreo continuo</p>
+          <p class="mt-2 text-sm">Seguimiento del desempeño y control de exposición.</p>
+        </div>
+
+        <div class="card p-5">
+          <p class="text-xs text-white/60">Paso 4</p>
+          <p class="mt-1 font-semibold text-white">Reporte mensual</p>
+          <p class="mt-2 text-sm">Entregamos un resumen claro con resultados y próximos ajustes.</p>
+        </div>
+      </div>
+
+      <div class="mt-8 rounded-2xl border border-white/10 bg-white/5 p-5">
+        <p class="text-xs text-white/70">
+          Nota: El desempeño puede variar. Operamos con disciplina y control, pero no existe garantía de rendimiento.
+        </p>
+      </div>
+    </div>
+  </section>
+
+ <!-- Resultados -->
+<section id="resultados">
+  <div class="container-page section">
+    <div class="flex flex-col gap-4 md:flex-row md:items-end md:justify-between">
+      <div>
+        <h2>Resultados</h2>
+        <p class="mt-2">
+          Ejemplos referenciales de desempeño mensual. La evidencia se presenta en reportes periódicos con métricas claras.
+        </p>
+      </div>
+
+      <a
+        href="./assets/docs/example_report.pdf"
+        class="btn-secondary"
+      >
+        Ver ejemplo de reporte (PDF)
+      </a>
+    </div>
+
+    <!-- Bloque principal: histórico + evidencia -->
+    <div class="mt-8 grid gap-4 lg:grid-cols-12">
+      <!-- Histórico visual -->
+      <div class="card lg:col-span-8">
+        <div class="flex items-start justify-between gap-4">
+          <div>
+            <h3 class="text-lg font-semibold text-white">Histórico mensual (referencial)</h3>
+            <p class="mt-1 text-sm text-white/70">
+              Representación visual para entender variaciones. Sustituye estos valores por los reales cuando el cliente lo autorice.
+            </p>
+          </div>
+          <span class="badge">Actualización: mensual</span>
+        </div>
+
+        <div class="mt-6 space-y-5">
+          <!-- Item -->
+          <div>
+            <div class="flex items-center justify-between">
+              <div class="flex items-center gap-3">
+                <p class="text-sm font-semibold text-white">Enero</p>
+                <p class="text-xs text-white/60">Variación (ejemplo)</p>
+              </div>
+              <p class="text-sm font-semibold text-brand-gold">+7%</p>
+            </div>
+            <div class="mt-2 h-2 w-full overflow-hidden rounded-full bg-white/10">
+              <div class="h-full w-[70%] bg-brand-gold/70"></div>
+            </div>
+          </div>
+
+          <div>
+            <div class="flex items-center justify-between">
+              <div class="flex items-center gap-3">
+                <p class="text-sm font-semibold text-white">Febrero</p>
+                <p class="text-xs text-white/60">Variación (ejemplo)</p>
+              </div>
+              <p class="text-sm font-semibold text-brand-gold">+5%</p>
+            </div>
+            <div class="mt-2 h-2 w-full overflow-hidden rounded-full bg-white/10">
+              <div class="h-full w-[55%] bg-brand-gold/70"></div>
+            </div>
+          </div>
+
+          <div>
+            <div class="flex items-center justify-between">
+              <div class="flex items-center gap-3">
+                <p class="text-sm font-semibold text-white">Marzo</p>
+                <p class="text-xs text-white/60">Variación (ejemplo)</p>
+              </div>
+              <p class="text-sm font-semibold text-brand-gold">+6%</p>
+            </div>
+            <div class="mt-2 h-2 w-full overflow-hidden rounded-full bg-white/10">
+              <div class="h-full w-[62%] bg-brand-gold/70"></div>
+            </div>
+          </div>
+        </div>
+
+        <p class="mt-6 text-xs text-white/60">
+          Los rendimientos pueden variar. Resultados pasados no garantizan resultados futuros. Toda inversión conlleva riesgo.
+        </p>
+      </div>
+
+      <!-- Evidencia / Qué incluye -->
+      <div class="space-y-4 lg:col-span-4">
+        <div class="card">
+          <h3 class="text-lg font-semibold text-white">Evidencia y reportes</h3>
+          <p class="mt-2 text-sm text-white/75">
+            Priorizamos transparencia: entregables claros y métricas para evaluar desempeño.
+          </p>
+
+          <ul class="mt-4 space-y-3 text-sm text-white/75">
+            <li class="flex items-start gap-3">
+              <span class="mt-2 h-2 w-2 rounded-full bg-brand-gold"></span>
+              <span><span class="font-semibold text-white">Reporte mensual</span> con resumen, variación y observaciones.</span>
+            </li>
+            <li class="flex items-start gap-3">
+              <span class="mt-2 h-2 w-2 rounded-full bg-brand-gold"></span>
+              <span><span class="font-semibold text-white">Seguimiento</span> y control de exposición con base en el plan.</span>
+            </li>
+            <li class="flex items-start gap-3">
+              <span class="mt-2 h-2 w-2 rounded-full bg-brand-gold"></span>
+              <span><span class="font-semibold text-white">Decisiones informadas</span> apoyadas en métricas y registro.</span>
+            </li>
+          </ul>
+
+          <div class="mt-5 rounded-2xl border border-white/10 bg-black/20 p-4">
+            <p class="text-xs text-white/70">
+              Este sitio es informativo y no constituye asesoría financiera personalizada.
+              <span class="text-white/60">Toda inversión conlleva riesgo.</span>
+            </p>
+          </div>
+        </div>
+
+        <details class="card">
+          <summary class="cursor-pointer text-sm font-semibold text-white">
+            Metodología de seguimiento (ver detalles)
+          </summary>
+          <div class="mt-4 space-y-3 text-sm text-white/75">
+            <p>• Registro de desempeño y revisión periódica.</p>
+            <p>• Control de exposición y ajustes cuando sea necesario.</p>
+            <p>• Reporte mensual con métricas claras y próximos pasos.</p>
+          </div>
+        </details>
+      </div>
+    </div>
+
+    <!-- Testimonios -->
+    <div class="mt-12">
+      <h2 class="text-xl md:text-2xl font-bold">Testimonios</h2>
+      <p class="mt-2">Experiencias de clientes (referenciales).</p>
+
+      <div class="mt-6 grid gap-4 md:grid-cols-3">
+        <div class="card">
+          <p class="text-sm text-white/80">
+            “El seguimiento y los reportes me ayudaron a entender el desempeño con claridad.”
+          </p>
+          <p class="mt-4 text-xs text-white/60">M.R. • México</p>
+        </div>
+
+        <div class="card">
+          <p class="text-sm text-white/80">
+            “Me gustó que el proceso es ordenado y que la comunicación es constante.”
+          </p>
+          <p class="mt-4 text-xs text-white/60">J.P. • México</p>
+        </div>
+
+        <div class="card">
+          <p class="text-sm text-white/80">
+            “La diversificación me dio más tranquilidad para gestionar escenarios.”
+          </p>
+          <p class="mt-4 text-xs text-white/60">A.L. • México</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+  <!-- Nosotros -->
+  <section id="nosotros" class="border-t border-white/10 bg-black/20">
+    <div class="container-page section">
+      <h2>Sobre nosotros</h2>
+      <p class="mt-2">
+        Somos un equipo enfocado en la gestión estratégica de capital mediante disciplina, control y análisis.
+        Operamos con un proceso transparente, reportes claros y seguimiento continuo para tomar mejores decisiones.
+      </p>
+
+      <div class="mt-8 grid gap-4 md:grid-cols-2 lg:grid-cols-4">
+        <div class="card p-5">
+          <p class="font-semibold text-white">Transparencia</p>
+          <p class="mt-2 text-sm">Reportes claros y comunicación constante.</p>
+        </div>
+        <div class="card p-5">
+          <p class="font-semibold text-white">Disciplina</p>
+          <p class="mt-2 text-sm">Proceso ordenado y consistente.</p>
+        </div>
+        <div class="card p-5">
+          <p class="font-semibold text-white">Gestión de riesgo</p>
+          <p class="mt-2 text-sm">Control de exposición y toma de decisiones con criterio.</p>
+        </div>
+        <div class="card p-5">
+          <p class="font-semibold text-white">Enfoque en datos</p>
+          <p class="mt-2 text-sm">Seguimiento y métricas para evaluar desempeño.</p>
+        </div>
+      </div>
+
+      <div class="mt-8 rounded-2xl border border-white/10 bg-white/5 p-5">
+        <p class="text-sm text-white/80 font-semibold">Compromiso de transparencia</p>
+        <p class="mt-2 text-sm">
+          Operamos con un enfoque de gestión y reporte transparente. No promovemos esquemas de reclutamiento ni modelos piramidales.
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contacto -->
+  <section id="contacto">
+    <div class="container-page section">
+      <h2>Contacto</h2>
+      <p class="mt-2">Envíanos un mensaje y te respondemos a la brevedad.</p>
+
+      <form
+        name="contact"
+        method="POST"
+        action="/gracias.html"
+        data-netlify="true"
+        netlify-honeypot="bot-field"
+        class="mt-8 grid gap-4 rounded-3xl border border-white/10 bg-white/5 p-6 md:max-w-xl"
+      >
+  <!-- Requerido para Netlify Forms -->
+  <input type="hidden" name="form-name" value="contact" />
+
+  <!-- Honeypot anti-spam (NO lo quites) -->
+  <p class="hidden">
+    <label>
+      No llenes esto si eres humano: <input name="bot-field" />
+    </label>
+  </p>
+
+  <label class="grid gap-2">
+    <span class="text-sm text-white/80">Nombre</span>
+    <input name="name" required class="input" placeholder="Tu nombre" />
+  </label>
+
+  <label class="grid gap-2">
+    <span class="text-sm text-white/80">Correo</span>
+    <input name="email" type="email" required class="input" placeholder="tucorreo@ejemplo.com" />
+  </label>
+
+  <label class="grid gap-2">
+    <span class="text-sm text-white/80">Mensaje</span>
+    <textarea
+      name="message"
+      rows="5"
+      required
+      class="input"
+      placeholder="Cuéntanos tus objetivos y el capital con el que te gustaría iniciar (opcional)."
+    ></textarea>
+  </label>
+
+  <button type="submit" class="btn-primary mt-2">Enviar mensaje</button>
+
+    <p class="text-xs text-white/60">
+        Al enviar este formulario aceptas ser contactado por nuestro equipo.
+        <span class="text-white/60">Toda inversión conlleva riesgo. Resultados pasados no garantizan resultados futuros.</span>
+    </p>
+    </form>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="border-t border-white/10">
+    <div class="container-page py-10 text-xs text-white/60">
+      <div class="flex flex-col gap-3 md:flex-row md:items-center md:justify-between">
+        <p>© <span id="year"></span> InvestLuck. Todos los derechos reservados.</p>
+
+        <div class="flex gap-4">
+          <a href="#" class="hover:text-white">Privacidad</a>
+          <a href="#" class="hover:text-white">Términos</a>
+        </div>
+      </div>
+
+      <p class="mt-4 text-[11px] text-white/55">
+        Este sitio es informativo y no constituye asesoría financiera personalizada. Toda inversión conlleva riesgo.
+      </p>
+    </div>
+  </footer>
+
+  <script>
+    document.getElementById("year").textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
